@@ -40,5 +40,19 @@ else:
 
 input("\nPress Enter to exit...")
 
+Enter genres when prompted (example: Sci-Fi, Action)
+
+## Technologies Used
+- Python
+- Basic filtering logic
+
+## Learning Outcome
+- Understood content-based recommendation systems
+- Learned how user preferences affect recommendations
+
+## Author
+Karthi Karthik
+
+
 
 
