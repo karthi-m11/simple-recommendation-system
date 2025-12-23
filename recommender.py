@@ -37,3 +37,16 @@ if recommendations:
         print("-", rec)
 else:
     print("No recommendations found based on your preferences.")
+
+
+## Technologies Used
+- Python
+- Basic filtering logic
+
+## Learning Outcome
+- Understood content-based recommendation systems
+- Learned how user preferences influence recommendations
+
+## Author
+Karthi Karthik
+
