@@ -10,14 +10,14 @@ items = {
     "The Notebook": ["Romance", "Drama"],
     "Matrix": ["Sci-Fi", "Action"],
     "Schindler's List (1993)": ["War", "History"],
-    "The Lord of the Rings": ["Fantasy"],
+    "The Lord of the Rings": ["Fantasy"]
 }
 
 # Get user preferences
-user_preferences = input(
-    "Enter your preferred genres (comma separated): "
-).split(",")
+user_input = input("Enter your preferred genres (comma separated): ")
+user_preferences = user_input.split(",")
 
+# Clean input
 user_preferences = [genre.strip().title() for genre in user_preferences]
 
 # Recommendation logic
@@ -38,15 +38,7 @@ if recommendations:
 else:
     print("No recommendations found based on your preferences.")
 
+input("\nPress Enter to exit...")
 
-## Technologies Used
-- Python
-- Basic filtering logic
 
-## Learning Outcome
-- Understood content-based recommendation systems
-- Learned how user preferences influence recommendations
-
-## Author
-Karthi Karthik
 
